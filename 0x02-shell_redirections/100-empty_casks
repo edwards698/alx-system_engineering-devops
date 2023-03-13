@@ -1,2 +1,2 @@
-100-empty_casks
-cut -d ':' -f 1,6 /etc/passwd | sort
+#!/bin/bash
+find . -empty | rev | cut -d '/' -f 1 | rev
